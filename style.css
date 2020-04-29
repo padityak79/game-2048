@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+    box-sizing: border-box;
+}
+
+.display-menu {
+    position :absolute;
+    top: 300px;
+    transform: translateY(-50%);
+    left: 700px;
+    display: flex;
+    background-color: #fff;
+}
+
+.scoreboard{
+    
+    padding: 10px 30px;
+    flex-grow: 2;
+    font-size: 35px;
+}
+
+
+
+.btn__reverse{
+    flex-grow: 1;
+    font-size: 40px;
+    
+}
+
+
+
+.btn__restart {
+    flex-grow: 1;
+    font-size: 40px;
+}
+
+.display-status {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 600px;
+    height: 600px;
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    opacity: 0;
+    z-index: 1000;
+    color: peru;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>2048 Game</title>
+</head>
+<body>
+    <div class="display-menu">
+        <output class= "scoreboard"> 0 </output>
+        <div class="btn__toggle">
+            <button class="btn__reverse"><span>&#128258;</span></button>
+            <button class="btn__restart"><span>&#128260;</span></button>
+        </div>
+        
+    </div>
+    <div class="display-status gamewon">
+        <span>Game Won &#128079;</span>
+    </div>
+    <div class="display-status gameover">
+        <span>Game Over &#128078;</span>
+    </div>
+    
+    <script src="2048grid.js"></script>
+    <script src="sketch.js"></script>
+</body>
+</html>
